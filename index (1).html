@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca do reino perdido</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/floresta-mais-velha-do-mundo-1ok.png" alt="">
+            <p>Um dia desses, dentro de um livro da biblioteca da escola, eu descobri uma carta antiga sobre um reino perdido, escondido por riquezas e belezas naturais. Nessa carta, a autora deixa algumas pistas para encontrar esse reino e eu decidi segui-las!</p>
+            <button class="btn-proximo" data-proximo="1">Auriflama</button>
+            <button class="btn-proximo" data-proximo="2">Guzolandia </button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa sua jornada em Auriflama, subindo o Pico da cachopa ao amanhecer para encontrar a primeira pista.</p>
+            <button class="btn-proximo" data-proximo="3">Procurar a pista no topo do pico</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Em Guzolandia, você visita o histórico centro de Guzolandia. Na carta, uma das pistas indica que para localizar a entrada para a cidade perdida você deve procurar a próxima pista em um dos pontos turísticos da cidade. Por qual você começa?</p>
+            <button class="btn-proximo" data-proximo="5">Investigar as igreja antiga</button>
+            <button class="btn-proximo" data-proximo="6">Explorar o estádio municipal</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No topo do Pico da cachopa, você encontra uma antiga inscrição apontando que a próxima pista está
+                localizada no dalas.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para dalas</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/floresta-mais-velha-do-mundo-1ok.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
+                encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Nas igreja de Guzolandia, você descobre um mapa antigo escondido atrás de um altar, apontando que a próxima
+                pista está em dalas.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para Dalas</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando o centro, você encontra uma garrafa com um bilhete dentro escondida no meio das plantas, mas o bilhete estava em branco.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar a igreja</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Em Dalas, a busca pelo reino perdida se intensifica. Você se depara com um rio bifurcado.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo rio à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo rio à direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta a igreja, você finalmente encontra o mapa antigo. Agora, para Dalas!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para Dalas</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O rio à esquerda leva você a uma floresta escondida com inscrições antigas que revelam a entrada do
+                reino perdido.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o reino perdido</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O rio à direita termina em uma favela. Apesar de belas vistas, não há sinais do reino perdido
+                aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro rio</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/castelo2.jpg" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Dentro do reino perdido, você descobre tesouros inimagináveis e decide se dedicar a estudar e preservar
+                este lugar</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo o rio à esquerda, você finalmente encontra a floresta escondida e as inscrições
+                que levam ao reino perdido.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o reino perdido</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
